@@ -1,0 +1,31 @@
+{
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://flordecristal.shop",
+        "icon": "world-www"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/61559629145571",
+        "icon": "brand-facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://instagram.com/flordecristal.shop",
+        "icon": "brand-instagram"
+      },
+      {
+        "title": "TikTok",
+        "url": "https://tiktok.com/@flordecristal.shop",
+        "icon": "brand-tiktok"
+      },
+      {
+        "title": "Email",
+        "url": "mailto:soporte@flordecristal.shop",
+        "icon": "mail"
+      }
+      
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+---
+import { Icon } from 'astro-icon/components';
+import json from '../links/data.json';
+---
+
+<section class="py-8">
+  <ul class="space-y-4 md:grid md:grid-cols-2 md:gap-4 md:items-end">
+    {json.links.map(link => (
+      <li>
+        <a href={link.url} class="link-button block py-4 px-6 bg-white rounded shadow hover:bg-gray-100 transition text-lg">
+          {<Icon name={link.icon} class='w-10 h-10 inline mr-2 text-gray-900'/>} {link.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>

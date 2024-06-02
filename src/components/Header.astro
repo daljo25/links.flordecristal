@@ -1,0 +1,11 @@
+---
+import { Image } from "astro:assets";
+import avatar from "../icons/logo.svg";
+
+const siteTitle = "Flor de Cristal";
+---
+
+<header class="py-6 text-gray-900 text-center">
+    <Image src={avatar} alt="Avatar" class="inline-block w-40 h-40 rounded-full ring-2 ring-white" />
+    <h1 class="text-3xl font-bold">{siteTitle}</h1>
+</header>
